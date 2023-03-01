@@ -62,7 +62,7 @@ async def share_user(message:types.Message):
 
 @dp.message_handler(content_types=types .ContentType.CONTACT)
 async def get_contact(message:types.Message):
-    # print(message.contact)
+    print(message.contact)
 
 @dp.message_handler(content_types=types .ContentType.LOCATION)
 async def get_contact(message:types.Message):
